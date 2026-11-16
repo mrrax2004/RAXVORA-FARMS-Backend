@@ -25,4 +25,9 @@ public class AuthController {
         auth.logout(principal.getName());
         return ResponseEntity.noContent().build();
     }
+    @GetMapping("/alive")
+    public String alive() {
+    	System.out.println("Frontend alive check");
+		return "Backend is alive!";
+	}
 }
