@@ -1,0 +1,12 @@
+com\dairyfarm\FinanceApiTest.class
+com\dairyfarm\AnalyticsApiTest.class
+com\dairyfarm\AavinProcurementApiTest.class
+com\dairyfarm\PhaseOneApiTest.class
+com\dairyfarm\PhaseTwoApiTest.class
+com\dairyfarm\InventoryApiTest.class
+com\dairyfarm\MobileSyncApiTest.class
+com\dairyfarm\ProcurementDirectoryApiTest.class
+com\dairyfarm\PhaseThreeApiTest.class
+com\dairyfarm\MilkBillPeriodApiTest.class
+com\dairyfarm\security\SecurityConfigTest.class
+com\dairyfarm\DemoAdminProvisioningTest.class
