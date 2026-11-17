@@ -43,7 +43,7 @@ public class SecurityConfig {
                     res.getWriter().write("{\"status\":403,\"message\":\"You do not have permission to access this resource.\"}");
                 }))
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/api/auth/login", "/v3/api-docs/**", "/swagger-ui/**", "/swagger-ui.html").permitAll()
+                        .requestMatchers("/api/auth/login", "/v3/api-docs/**", "/swagger-ui/**", "/swagger-ui.html","/api/auth/alive").permitAll()
                         .requestMatchers(HttpMethod.OPTIONS, "/**").permitAll()
                         .anyRequest().authenticated())
                 .authenticationProvider(authenticationProvider)
